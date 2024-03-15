@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "TerminessNerdFontMono:size=16:antialias=true:autohint=true";
+static char *font = "TerminessNerdFontMono:size=13:antialias=true:autohint=true";
 static char *font2[] = { "NotoColorEmoji:size=13:antialias=true:autohint=true" };
 static int borderpx = 0;
 
