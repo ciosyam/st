@@ -1,7 +1,5 @@
-# Luke's build of st - the simple (suckless) terminal
-
-The [suckless terminal (st)](https://st.suckless.org/) with some additional
-features that make it literally the best terminal emulator ever:
+# Simple Terminal
+this is just luke smith's fork of [suckless terminal (st)](https://st.suckless.org/) with my color scheme added
 
 ## Unique features (using dmenu)
 
@@ -22,7 +20,6 @@ features that make it literally the best terminal emulator ever:
 ## Pretty stuff
 
 + Compatibility with `Xresources` and `pywal` for dynamic colors.
-+ Default [gruvbox](https://github.com/morhetz/gruvbox) colors otherwise.
 + Transparency/alpha, which is also adjustable from your `Xresources`.
 + Default font is system "mono" at 14pt, meaning the font will match your
   system font.
@@ -39,7 +36,7 @@ features that make it literally the best terminal emulator ever:
 You should have xlib header files and libharfbuzz build files installed.
 
 ```
-git clone https://github.com/LukeSmithxyz/st
+git clone https://github.com/ciosyam/st
 cd st
 sudo make install
 ```
@@ -64,7 +61,7 @@ files to load the settings.
 For example, you can define your desired fonts, transparency or colors:
 
 ```
-*.font:	Liberation Mono:pixelsize=12:antialias=true:autohint=true;
+*.font:	IBMPlexMono:pixelsize=12:antialias=true:autohint=true;
 *.alpha: 0.9
 *.color0: #111
 ...
@@ -77,13 +74,7 @@ The `alpha` value (for transparency) goes from `0` (transparent) to `1`
 
 To be clear about the color settings:
 
-- This build will use gruvbox colors by default and as a fallback.
 - If there are Xresources colors defined, those will take priority.
 - But if `wal` has run in your session, its colors will take priority.
 
 Note that when you run `wal`, it will negate the transparency of existing windows, but new windows will continue with the previously defined transparency.
-
-## Contact
-
-- Luke Smith <luke@lukesmith.xyz>
-- [https://lukesmith.xyz](https://lukesmith.xyz)
