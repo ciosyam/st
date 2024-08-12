@@ -115,28 +115,28 @@ float alphaUnfocus;
 static const char *colorname[] = {
   /* 8 normal colors */
   [0] = "#000000", /* black   */
-  [1] = "#DF0087", /* red     */
-  [2] = "#E00088", /* green   */
-  [3] = "#ED0090", /* yellow  */
-  [4] = "#F30093", /* blue    */
-  [5] = "#F30094", /* magenta */
-  [6] = "#F70096", /* cyan    */
-  [7] = "#f677c4", /* white   */
+  [1] = "#de00e0", /* red     */
+  [2] = "#e900ea", /* green   */
+  [3] = "#f400f5", /* yellow  */
+  [4] = "#ff00ff", /* blue    */
+  [5] = "#ff24ff", /* magenta */
+  [6] = "#ff37ff", /* cyan    */
+  [7] = "#ff47ff", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#ac5389",  /* black   */
-  [9]  = "#DF0087",  /* red     */
-  [10] = "#E00088", /* green   */
-  [11] = "#ED0090", /* yellow  */
-  [12] = "#F30093", /* blue    */
-  [13] = "#F30094", /* magenta */
-  [14] = "#F70096", /* cyan    */
-  [15] = "#f677c4", /* white   */
+  [8]  = "#e619e5",  /* black   */
+  [9]  = "#ff00ff",  /* red     */
+  [10] = "#ff5aff", /* green   */
+  [11] = "#ff83ff", /* yellow  */
+  [12] = "#ff5aff", /* blue    */
+  [13] = "#ffc4ff", /* magenta */
+  [14] = "#ffe2ff", /* cyan    */
+  [15] = "#ffffff", /* white   */
 
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
-	"#555555", /* 257 -> rev cursor*/
+	"#ff00ff", /* 256 -> cursor */
+	"#808080", /* 257 -> rev cursor*/
 	"#000000", /* 258 -> bg */
 	"#FFFFFF", /* 259 -> fg */
 };
