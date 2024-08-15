@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "TerminessNerdFontMono:size=16:antialias=true:autohint=true";
+static char *font = "TerminessNerdFont:size=16:antialias=true:autohint=true";
 static char *font2[] = { "NotoColorEmoji:size=16:antialias=true:autohint=true" };
 static int borderpx = 0;
 
@@ -115,20 +115,20 @@ float alphaUnfocus;
 static const char *colorname[] = {
   /* 8 normal colors */
   [0] = "#000000", /* black   */
-  [1] = "#de00e0", /* red     */
-  [2] = "#e900ea", /* green   */
-  [3] = "#f400f5", /* yellow  */
-  [4] = "#ff00ff", /* blue    */
-  [5] = "#ff24ff", /* magenta */
-  [6] = "#ff37ff", /* cyan    */
-  [7] = "#ff47ff", /* white   */
+  [1] = "#2b1329", /* red     */
+  [2] = "#501a4f", /* green   */
+  [3] = "#781e77", /* yellow  */
+  [4] = "#a31ea2", /* blue    */
+  [5] = "#d018d0", /* magenta */
+  [6] = "#ff00ff", /* cyan    */
+  [7] = "#ffffff", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#e619e5",  /* black   */
+  [8]  = "#000000",  /* black   */
   [9]  = "#ff00ff",  /* red     */
   [10] = "#ff5aff", /* green   */
   [11] = "#ff83ff", /* yellow  */
-  [12] = "#ff5aff", /* blue    */
+  [12] = "#ffa5ff", /* blue    */
   [13] = "#ffc4ff", /* magenta */
   [14] = "#ffe2ff", /* cyan    */
   [15] = "#ffffff", /* white   */
