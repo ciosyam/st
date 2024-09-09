@@ -5,8 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
+
 static char *font = "TerminessNerdFont:size=16:antialias=true:autohint=true";
-static char *font2[] = { "NotoColorEmoji:size=16:antialias=true:autohint=true" };
+static char *font2[] = { "NanumGothicCoding:size=12:antialias=true:autohint=true" };
+static char *font3[] = { "NotoColorEmoji:size=16:antialias=true:autohint=true" };
 static int borderpx = 0;
 
 /*
