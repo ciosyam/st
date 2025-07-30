@@ -117,30 +117,30 @@ float alphaUnfocus;
 static const char *colorname[] = {
   /* 8 normal colors */
   [0] = "#000000", /* black   */
-  [1] = "#de00e0", /* red     */
-  [2] = "#e900ea", /* green   */
-  [3] = "#f400f5", /* yellow  */
-  [4] = "#ff00ff", /* blue    */
-  [5] = "#ff24ff", /* magenta */
-  [6] = "#ff37ff", /* cyan    */
+  [1] = "#5e5e5e", /* red     */
+  [2] = "#a8a8a8", /* green   */
+  [3] = "#bfbfbf", /* yellow  */
+  [4] = "#d0d0d0", /* blue    */
+  [5] = "#e0e0e0", /* magenta */
+  [6] = "#c8c8c8", /* cyan    */
   [7] = "#ffffff", /* white   */
 
-  /* 8 normal colors */
-  [8]  = "#000000", /* black   */
-  [9]  = "#ff00ff", /* red     */
-  [10] = "#ff5aff", /* green   */
-  [11] = "#ff83ff", /* yellow  */
-  [12] = "#ffa5ff", /* blue    */
-  [13] = "#ffc4ff", /* magenta */
-  [14] = "#ffe2ff", /* cyan    */
+  /* 8 bright colors */
+  [8]  = "#1a1a1a", /* black   */
+  [9]  = "#7f7f7f", /* red     */
+  [10] = "#d6d6d6", /* green   */
+  [11] = "#eaeaea", /* yellow  */
+  [12] = "#f0f0f0", /* blue    */
+  [13] = "#f5f5f5", /* magenta */
+  [14] = "#e2e2e2", /* cyan    */
   [15] = "#ffffff", /* white   */
 
-	[255] = 0,
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#00ff00", /* 256 -> cursor */
-	"#ff00ff", /* 257 -> rev cursor*/
-	"#000000", /* 258 -> bg */
-	"#FFFFFF", /* 259 -> fg */
+  [255] = 0,
+  /* more colors can be added after 255 to use with DefaultXX */
+  "#ffffff", /* 256 -> cursor */
+  "#ffffff", /* 257 -> reverse cursor */
+  "#000000", /* 258 -> background */
+  "#ffffff", /* 259 -> foreground */
 };
 
 /*
@@ -152,6 +152,7 @@ unsigned int defaultbg = 258;
 unsigned int defaultcs = 256;
 unsigned int defaultrcs = 257;
 unsigned int background = 258;
+
 
 /*
  * Default shape of cursor
