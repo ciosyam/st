@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-static char *font = "TerminessNerdFont:size=16:antialias=true:autohint=true";
+static char *font    =   "TerminessNerdFont:size=16:antialias=true:autohint=true";
 static char *font2[] = { "NanumGothicCoding:size=12:antialias=true:autohint=true" };
 static char *font3[] = { "NotoColorEmoji:size=16:antialias=true:autohint=true" };
 static int borderpx = 0;
@@ -109,7 +109,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 1;
+float alpha = 0.9;
 float alphaOffset = 0.0;
 float alphaUnfocus;
 
@@ -117,31 +117,34 @@ float alphaUnfocus;
 static const char *colorname[] = {
   /* 8 normal colors */
   [0] = "#000000", /* black   */
-  [1] = "#5e5e5e", /* red     */
-  [2] = "#a8a8a8", /* green   */
-  [3] = "#bfbfbf", /* yellow  */
-  [4] = "#d0d0d0", /* blue    */
-  [5] = "#e0e0e0", /* magenta */
-  [6] = "#c8c8c8", /* cyan    */
-  [7] = "#ffffff", /* white   */
+  [1] = "#4f4f4f", /* red     */
+  [2] = "#7a7a7a", /* green   */
+  [3] = "#9a9a9a", /* yellow  */
+  [4] = "#b5b5b5", /* blue    */
+  [5] = "#c8c8c8", /* magenta */
+  [6] = "#bfbfbf", /* cyan    */
+  [7] = "#dddddd", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#1a1a1a", /* black   */
-  [9]  = "#7f7f7f", /* red     */
-  [10] = "#d6d6d6", /* green   */
-  [11] = "#eaeaea", /* yellow  */
-  [12] = "#f0f0f0", /* blue    */
-  [13] = "#f5f5f5", /* magenta */
-  [14] = "#e2e2e2", /* cyan    */
-  [15] = "#ffffff", /* white   */
+  [8]  = "#ffffff",
+  [9]  = "#e8e8e8",
+  [10] = "#d6d6d6",
+  [11] = "#c2c2c2",
+  [12] = "#aeaeae",
+  [13] = "#8e8e8e",
+  [14] = "#5e5e5e",
+  [15] = "#1a1a1a",
 
   [255] = 0,
-  /* more colors can be added after 255 to use with DefaultXX */
+  /* more colors can be added after 255 to use with defaultxx */
   "#ffffff", /* 256 -> cursor */
   "#ffffff", /* 257 -> reverse cursor */
   "#000000", /* 258 -> background */
   "#ffffff", /* 259 -> foreground */
 };
+
+static const char *selbgcolor = "#000000";
+static const char *selfgcolor = "#ffffff";
 
 /*
  * Default colors (colorname index)
