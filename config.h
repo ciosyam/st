@@ -138,12 +138,12 @@ static const char *colorname[] = {
   [255] = 0,
   /* more colors can be added after 255 to use with defaultxx */
   "#ffffff", /* 256 -> cursor */
-  "#ffffff", /* 257 -> reverse cursor */
+  "#000000", /* 257 -> reverse cursor */
   "#000000", /* 258 -> background */
-  "#ffffff", /* 259 -> foreground */
+  "#d0d0d0", /* 259 -> foreground */
 };
 
-static const char *selbgcolor = "#000000";
+static const char *selbgcolor = "#4a4a4a";
 static const char *selfgcolor = "#ffffff";
 
 /*
