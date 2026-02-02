@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-static char *font    =   "TerminessNerdFont:size=16:antialias=true:autohint=true";
+static char *font = "TerminessNerdFont:size=16:antialias=true:autohint=true";
 static char *font2[] = { "NanumGothicCoding:size=12:antialias=true:autohint=true" };
 static char *font3[] = { "NotoColorEmoji:size=16:antialias=true:autohint=true" };
 static int borderpx = 0;
@@ -117,23 +117,23 @@ float alphaUnfocus;
 static const char *colorname[] = {
   /* 8 normal colors */
   [0] = "#000000", /* black   */
-  [1] = "#4f4f4f", /* red     */
-  [2] = "#7a7a7a", /* green   */
-  [3] = "#9a9a9a", /* yellow  */
-  [4] = "#b5b5b5", /* blue    */
-  [5] = "#c8c8c8", /* magenta */
-  [6] = "#bfbfbf", /* cyan    */
-  [7] = "#dddddd", /* white   */
+  [1] = "#4a4a4a", /* red     */
+  [2] = "#707070", /* green   */
+  [3] = "#8a8a8a", /* yellow  */
+  [4] = "#a5a5a5", /* blue    */
+  [5] = "#bdbdbd", /* magenta */
+  [6] = "#d0d0d0", /* cyan    */
+  [7] = "#e0e0e0", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#ffffff",
-  [9]  = "#e8e8e8",
-  [10] = "#d6d6d6",
-  [11] = "#c2c2c2",
-  [12] = "#aeaeae",
-  [13] = "#8e8e8e",
-  [14] = "#5e5e5e",
-  [15] = "#1a1a1a",
+  [8]  = "#1a1a1a", /* black   */
+  [9]  = "#666666", /* red     */
+  [10] = "#8f8f8f", /* green   */
+  [11] = "#b0b0b0", /* yellow  */
+  [12] = "#d0d0d0", /* blue    */
+  [13] = "#e6e6e6", /* magenta */
+  [14] = "#f2f2f2", /* cyan    */
+  [15] = "#ffffff", /* white   */
 
   [255] = 0,
   /* more colors can be added after 255 to use with defaultxx */
